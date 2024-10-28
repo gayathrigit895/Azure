@@ -3680,7 +3680,7 @@ justify-content: space-between;
         font-size :8px;
         font-weight: 700;
         position: absolute;
-        padding-top: 7px;
+        padding-top: 4px;
         /* right:15px; */
         text-align:left;
         text-size-adjust: 100%;
@@ -4191,22 +4191,22 @@ justify-content: space-between;
     .video_play{
         position: relative;
     }
-    .three-m{
+    /* .three-m{
         width:28.529%
-    }
+    } */
     .video-img{
         position: absolute;
-        top:228px;
+        top:265px;
         right:94px;
         width:43.1%;
     }
     .four{
-        width:27.4%;
+        /* width:27.4%; */
         padding-left: 48px;
     }
-    .video-img img{
+    /* .video-img img{
         height:277.5px;
-    }
+    } */
     .grid_cham{
         grid-template-columns: repeat(3,1fr);
         gap:16px;
@@ -4340,6 +4340,7 @@ justify-content: space-between;
     .bar-scroll{
         height: 492px;
         overflow: scroll;
+        width:33%;
     }
     .card-cont{
         padding-left: 24px;
@@ -4640,9 +4641,10 @@ justify-content: space-between;
         background-size:cover;
         background-position:center;
         object-fit: cover;
-        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-Gartner-BG-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1412&qlt=100&fit=constrain);
+        /* background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-Gartner-BG-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1412&qlt=100&fit=constrain); */
         padding-top: 100px;
         padding-bottom: 72px;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-Gartner-BG@4x?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=85);
     }
     .f_last{
         padding-top: 30px;
@@ -4668,6 +4670,8 @@ justify-content: space-between;
     .three{
         padding-left: 56px;
         padding-right: 56px;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
     .ai{
         margin-left: unset;
