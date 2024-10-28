@@ -1014,6 +1014,9 @@ body{
     text-wrap: nowrap;
     margin-top: 24px;
 }
+.scroll-b::-webkit-scrollbar{
+    display: none;
+}
 .scroll-b li{
     list-style-type: none;
     border-bottom: none;
@@ -4198,7 +4201,8 @@ justify-content: space-between;
         width:43.1%;
     }
     .four{
-        width:42.4%;
+        width:27.4%;
+        padding-left: 48px;
     }
     .video-img img{
         height:277.5px;
@@ -4644,6 +4648,37 @@ justify-content: space-between;
         padding-top: 30px;
         padding-bottom: 16px;
     }
+    .three-m{
+        padding: unset;
+    }
+    .three-2{
+        padding: unset;
+        justify-content: flex-start;
+        gap:8px;
+    }
+    .four-pd{
+        padding: unset;
+    }
+    .three-1{
+        padding: unset;
+    }
+    .three-p{
+       padding: unset;
+    }
+    .three{
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+    .ai{
+        margin-left: unset;
+    }
+    .arw-a{
+        transform :matrix(-1, 0, 0, -1, 0, 0);
+    }
+    .three-m{
+        border-left: 3px solid rgb(0, 66, 117);
+        padding-left: 48px;
+    }
 }
 
 @media screen and (min-width:920px){
@@ -4810,10 +4845,10 @@ justify-content: space-between;
         padding-left: 58px;
         padding-right: 58px;
     }
-    .three-1{
+    /* .three-1{
         padding-left: 44px;
         padding-right: 44px;
-    }
+    } */
     .five-pd{
         padding-left: 58px;
         padding-right: 58px;
@@ -4939,18 +4974,18 @@ justify-content: space-between;
         padding-left: 72px;
         padding-right: 72px;
     }
-    .four-pd{
+    /* .four-pd{
         margin-left:14px;
         margin-right: 14px;
-    }
-    .three-m{
+    } */
+    /* .three-m{
         padding-left: 64px;
         padding-right: 64px;
-    }
-    .three-1{
+    } */
+    /* .three-1{
         padding-left: 60px;
         padding-right: 60px;
-    }
+    } */
     .five-pd{
         padding-left: 66.25px;
         padding-right: 66.25px;
@@ -5011,6 +5046,10 @@ justify-content: space-between;
         font-size: 20px;
         letter-spacing: -0.6px;
         line-height: 28px;
+    }
+    .three{
+        padding-left: 70px;
+        padding-right: 70px;
     }
 }
 @media screen and (min-width:1421px){
@@ -5187,6 +5226,10 @@ justify-content: space-between;
         padding-top: 98px;
         padding-bottom: 98px;
     }
+    .three{
+        padding-left: 72px;
+        padding-right: 72px;
+    }
 }
 @media screen and (min-width:1640px){
     .top_n2{
@@ -5252,5 +5295,9 @@ justify-content: space-between;
     }
     .f-blank{
         height: 355px;
+    }
+    .three{
+        padding-left: 160px;
+        padding-right: 160px;
     }
 }
